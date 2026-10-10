@@ -1,0 +1,8 @@
+moviepy==2.1.2
+edge-tts>=6.1.12
+beautifulsoup4>=4.12
+requests>=2.31
+numpy>=1.26
+Pillow>=10.1
+gradio>=4.44        # only needed for the Hugging Face Space UI (app.py)
+# playwright>=1.45  # optional: JS-heavy sites (then run: playwright install --with-deps chromium)
