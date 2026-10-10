@@ -40,7 +40,7 @@ UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 TTS_VOICE = os.getenv("TTS_VOICE", "en-US-AndrewNeural")  # e.g. ar-AE-HamdanNeural
 TTS_RATE = os.getenv("TTS_RATE", "+8%")
